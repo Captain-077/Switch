@@ -1,0 +1,47 @@
+
+
+
+.toggle-switch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.switch{
+width:300px;
+height: 120px;
+background-color: lightGrey;
+border-radius: 80px;
+display: flex;
+justify-content: start;
+align-items: center;
+padding: 0 10px;
+cursor: pointer;
+
+}
+
+.switch-state{
+font-size: 35px;
+color:white;
+width:100px;
+height: 100px;
+background-color: red;
+border-radius: 50%;
+display: grid;
+place-items: center;
+cursor: pointer;
+transition: all 0.3s;
+border: 3px solid white;
+
+}
+
+.On{
+   transform: translateX(190px);
+   background-color: green;
+}
+
+/* .Off{
+   transform: translateX(0px);
+   background-color: red !important;
+} */
